@@ -1,0 +1,30 @@
+.Button {
+  border-radius: 50%;
+  color: white;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+  }
+
+  .Button:hover{
+    color: #000;
+    background-color: gray;
+    box-shadow: 0px 0px rgba(46, 229, 157, 0.4);
+  }
+
+  .btn-gray{
+    background-color: #4a4242;
+  }
+  
+  .btn-yellow{
+    background-color: orange;
+  }
+
+  .btn-active{
+    background-color: #6e8bbf!important;
+ }
+
